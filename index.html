@@ -10,10 +10,11 @@
 	    
 	    #top .social_bookmarks{
 	    position: relative;
-	    width: 300px;
+	    width: 600px;
 	    margin:0 auto;
 	    padding:0;
 	    margin-top: 40px;
+	    text-align: center;
 	    
 	    }
 	    
@@ -43,41 +44,41 @@
 	    height:100%;
 	    }
 	    
-	    .social_bookmarks .rss{background: transparent url(./images/icon_sprite.png) 0px -84px  no-repeat;  ; }
+	    .social_bookmarks .rss{background: transparent url(./images/icon_sprite.png) 0px -84px  no-repeat; background-color: orange; }
 	    .social_bookmarks .linkedin {background:  url(./images/icon_sprite.png) -168px 0px  no-repeat; background-color:#4875B4; }
 	    .social_bookmarks .facebook{background:  url(./images/icon_sprite.png) -84px -42px  no-repeat; background-color:#3B5998; }
 	    .social_bookmarks .twitter{background:  url(./images/icon_sprite.png) -84px -84px  no-repeat; background-color:#4099FF}
-	    .social_bookmarks .mail{background: transparent url(./images/icon_sprite.png) -168px -42px  no-repeat;}
-	    .social_bookmarks .vcard{background: transparent url(./images/icon_sprite.png) -168px -84px  no-repeat;}
-	    .social_bookmarks .dribbble{background: transparent url(./images/icon_sprite.png) -84px 0px  no-repeat;}
-	    .social_bookmarks .search{background: transparent url(./images/icon_sprite.png) 0 center  no-repeat;}
-	    .social_bookmarks .gplus{background: transparent url(./images/icon_sprite.png) 0 -42px  no-repeat;}
+	    .social_bookmarks .mail{background: transparent url(./images/icon_sprite.png) -168px -42px  no-repeat; background-color: #fbe7c7;
+		}
+	    .social_bookmarks .vcard{background: transparent url(./images/icon_sprite.png) -168px -84px  no-repeat; background-color: purple;
+		}
+	    .social_bookmarks .dribbble{background: transparent url(./images/icon_sprite.png) -84px 0px  no-repeat; background-color: #ea4c89;
+		}
+	    .social_bookmarks .search{background: transparent url(./images/icon_sprite.png) 0 center  no-repeat; background-color: red;
+		}
 	    
-	    .social_bookmarks .rss:hover	 {background-position: -42px -84px; background-color:#989832; -moz-border-radius:75px;
+	    .social_bookmarks .rss:hover	 {background-position: -42px -84px;  -moz-border-radius:75px;
 	     -webkit-border-radius: 75px;
 	    }
-	    .social_bookmarks .facebook:hover{background-position: -126px -42px; background-color:#989832; -moz-border-radius:75px;
+	    .social_bookmarks .facebook:hover{background-position: -126px -42px; -moz-border-radius:75px;
 	     -webkit-border-radius: 75px;
 	    }
-	    .social_bookmarks .twitter:hover {background-position: -126px -84px; background-color:#989832; -moz-border-radius:75px;
+	    .social_bookmarks .twitter:hover {background-position: -126px -84px;  -moz-border-radius:75px;
 	     -webkit-border-radius: 75px;
 	    }
-	    .social_bookmarks .vcard:hover {background-position: -210px -84px; background-color:#989832; -moz-border-radius:75px;
+	    .social_bookmarks .vcard:hover {background-position: -210px -84px; -moz-border-radius:75px;
 	     -webkit-border-radius: 75px;
 	    }
-	    .social_bookmarks .mail:hover    {background-position: -210px -42px; background-color:#989832; -moz-border-radius:75px;
+	    .social_bookmarks .mail:hover    {background-position: -210px -42px; -moz-border-radius:75px;
 	     -webkit-border-radius: 75px;
 	    }
-	    .social_bookmarks .dribbble:hover{background-position: -126px 0; background-color:#989832; -moz-border-radius:75px;
+	    .social_bookmarks .dribbble:hover{background-position: -126px 0; -moz-border-radius:75px;
 	     -webkit-border-radius: 75px;
 	    }
-	    .social_bookmarks .search:hover  {background-position: -42px center; background-color:#989832; -moz-border-radius:75px;
+	    .social_bookmarks .search:hover  {background-position: -42px center; -moz-border-radius:75px;
 	     -webkit-border-radius: 75px;
 	    }
-	    .social_bookmarks .gplus:hover   {background-position: -42px -42px; background-color:#989832; -moz-border-radius:75px;
-	     -webkit-border-radius: 75px;
-	    }
-	    .social_bookmarks .linkedin:hover {background-position: -210px 0px; background-color: #989832; -moz-border-radius:75px;
+	    .social_bookmarks .linkedin:hover {background-position: -210px 0px; -moz-border-radius:75px;
 	     -webkit-border-radius: 75px;
 	    }
 	    
@@ -90,9 +91,15 @@
   <body>
     <div id="top" style="text-align: center; margin-left: 11px;">
 	    <ul class="social_bookmarks">
-	    	<li class="twitter" style="margin-left: 15px;"><a href="https://twitter.com/SupplyTeachingL" target="_blank">Follow us on Twitter</a></li>
-	    	<li class="facebook"><a href="https://www.facebook.com/pages/Supply-Teaching/246891995419834" target="_blank">Like our Facebook page</a></li>
-	    	<li class="linkedin"><a href="http://www.linkedin.com/pub/belinda-jarman/22/23a/589" target="_blank">Join us on Linkedin</a></li>
+	    	<li class="twitter"><a href="#" target="_blank">Follow us on Twitter</a></li>
+	    	<li class="facebook"><a href="#" target="_blank">Like our Facebook page</a></li>
+	    	<li class="linkedin"><a href="#" target="_blank">Join us on Linkedin</a></li>
+	    	<li class="rss"><a href="#" target="_blank">RSS FEED</a></li>
+	    	<li class="mail"><a href="#" target="_blank">Mail</a></li>
+	  
+	    	<li class="vcard"><a href="#" target="_blank">vcard</a></li>
+	    	<li class="dribbble"><a href="#" target="_blank">dribble</a></li>
+	    	<li class="search"><a href="#" target="_blank">Search</a></li>
 	    </ul>
     </div>
   </body>
